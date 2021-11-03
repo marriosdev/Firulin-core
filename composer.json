@@ -1,0 +1,18 @@
+{
+    "name": "edmario/firulin",
+    "authors": [
+        {
+            "name": "edmariooliver",
+            "email": "edmariooliver@outlook.com"
+        }
+    ],
+    "require": {
+
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Firulin\\": "CLI/src/"
+        }
+    }
+}
