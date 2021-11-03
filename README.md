@@ -23,7 +23,6 @@
 
 ## Step 1
 
-<hr>
 
 ###  To create a new command, you can run the command: php firulin cmd: create
 
@@ -61,7 +60,6 @@ class Hello extends Command
 
 ## Step 2
 
-<hr>
 
 ### Now let's go into the config.php file and add some things
 
@@ -113,7 +111,6 @@ class Hello extends Command
 
 ## Step 3
 
-<hr>
 
 ### Now in the boundary.php file, let's add the Test class
 
