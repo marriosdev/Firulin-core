@@ -1,7 +1,7 @@
 <?php
 
 $listCommand = include("config.php");
-$listCommand = $listCommand["sugestList"];
+$listCommand = $listCommand["suggestList"];
 
 /**
  * [List commands class] 
@@ -21,7 +21,7 @@ function start($command)
     $captain = new Captain();
 
     if(!in_array($command->type, $listCommand)){
-        $command->type = Command::sugest($command->type, $listCommand);
+        $command->type = Command::suggest($command->type, $listCommand);
     }
 
     /**

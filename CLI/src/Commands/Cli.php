@@ -27,10 +27,10 @@ class Cli extends Command
                 $content = str_replace("NameClass", $command->arg1, $content);
                 fwrite($file, $content);
                 fclose($file);
-            }else{
+            } else {
                 echo MessageError::send("The command already exists");
             }
-        }else{
+        } else {
             echo MessageError::send("You need to pass the name of the new command");
         }
     }
