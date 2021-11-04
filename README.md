@@ -96,7 +96,7 @@ class Hello extends Command
     /**
      * Command suggestion list
      */
-    "sugestList"=>[
+    "suggestList"=>[
         "project",
         "cmd",
         "hello"

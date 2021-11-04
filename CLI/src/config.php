@@ -49,7 +49,7 @@ return [
     /**
      * Command suggestion list
      */
-    "sugestList"=>[
+    "suggestList"=>[
         "project",
         "cmd"
     ],

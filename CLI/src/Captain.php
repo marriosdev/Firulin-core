@@ -27,7 +27,7 @@ class Captain
         $list = $list["commands"][$cmd->type];
 
         if(!in_array($cmd->action, $list)){
-            $cmd->action = Command::sugest($action ,$list);   
+            $cmd->action = Command::suggest($action ,$list);   
         }
         if(isset($cmd->action)){
             $command = new $class();

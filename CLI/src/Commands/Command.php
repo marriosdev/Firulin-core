@@ -9,16 +9,16 @@ use Firulin\Messages\MessageError;
 class Command
 {
     /**
-     * Command sugestion 
+     * Command suggestion 
      * 
      * @param string $command
      * @param array $sugList
      * 
      * @return string  
      */    
-    static function sugest($command, $sugList)
+    static function suggest($command, $sugList)
     {
-        $sugest=["type"=>$sugList[0], "countMatch"=>0]; 
+        $suggest = ["type"=> $sugList[0], "countMatch"=> 0]; 
         $strMatchCount = 0;
         foreach($sugList as $sugCom){
             $strMatchCount = 0;
@@ -27,15 +27,15 @@ class Command
                     $strMatchCount++;
                 }
             }
-            if($strMatchCount>$sugest["countMatch"]){
-                $sugest=["type"=>$sugCom, "countMatch"=>$strMatchCount];
+            if($strMatchCount > $suggest["countMatch"]){
+                $suggest= ["type"=> $sugCom, "countMatch"=> $strMatchCount];
             }
         }
-        echo MessageError::send("Command Not Found \nDid you mean: ".$sugest["type"]);
+        echo MessageError::send("Command Not Found \nDid you mean: ".$suggest["type"]);
         echo "Y or N: ";
         $question = readline();
         if(strpos($question, "y") !== false){
-            return $sugest["type"]; 
+            return $suggest["type"]; 
         }
         return $command;
     }
