@@ -112,7 +112,7 @@ class Hello extends Command
 ## Step 3
 
 
-### Now in the boundary.php file, let's add the Test class
+### Now in the boundary.php file, let's add the Hello class
 
 ```php
 Use Firulin\Captain;
@@ -124,7 +124,7 @@ use Firulin\Commands\Hello;
 
 ```
 
-### And add a case to the switch with the "test" command and call your class
+### And add a case to the switch with the "hello" command and call your class
 
 ```php
     /**
