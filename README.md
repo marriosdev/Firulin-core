@@ -8,10 +8,6 @@
 > PHP 7.4^
 >
 > Composer
-
-<br>
-<br>
-
 ## Get started
 
 ```bash
