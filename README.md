@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/dt/edmario/firulin" alt="Total Downloads"</a>
-    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/v/edmario/firulin" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/l/edmario/firulin" alt="License"></a>
+    <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/dt/marrios/firulincore" alt="Total Downloads"</a>
+    <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/v/edmario/marrios/firulincore" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/l/marrios/firulincore" alt="License"></a>
 </p>
 # Firulin-core v1
 
@@ -10,13 +10,13 @@
 
 ### Requeriments
 
-> PHP 7.4^
+> PHP >=7.4
 >
 > Composer
 ## Get started
 
 ```bash
-    composer install
+    composer create-project marrios/firulincore
 ```
 
 ##  Creating new command
