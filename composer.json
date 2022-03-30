@@ -1,5 +1,7 @@
 {
-    "name": "marrios/firulin",
+    "name": "marrios/firulincore",
+    "keywords": ["FirulinCore", "framework"],
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "edmariooliver",
