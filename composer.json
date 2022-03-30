@@ -16,7 +16,7 @@
         "psr-4": {
             "Firulin\\": "CLI/src/"
         }
-    }
+    },
     "config": {
     "optimize-autoloader": true,
     "preferred-install": "dist",
