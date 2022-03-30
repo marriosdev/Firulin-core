@@ -1,7 +1,7 @@
 <p align="center">
-    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"</a>
-    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/dt/edmario/firulin" alt="Total Downloads"</a>
+    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/v/edmario/firulin" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/edmario/firulin"><img src="https://img.shields.io/packagist/l/edmario/firulin" alt="License"></a>
 </p>
 # Firulin-core v1
 
