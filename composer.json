@@ -2,6 +2,7 @@
     "name": "marrios/firulincore",
     "keywords": ["FirulinCore", "framework"],
     "license": "GPL-3.0",
+    "type": "project",
     "authors": [
         {
             "name": "edmariooliver",
