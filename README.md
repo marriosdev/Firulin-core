@@ -13,7 +13,6 @@
 ```bash
     composer install
 ```
-<br>
 
 ##  Creating new command
 
