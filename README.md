@@ -23,10 +23,7 @@
 
 ## Step 1
 
-
 ###  To create a new command, you can run the command: php firulin cmd: create
-
-<br>
 
 ### ex:
 ```bash
@@ -56,7 +53,6 @@ class Hello extends Command
 
 ### We just created a new command called "hello" and a subcommand called "world". It is already running? No! We still need to do some little things
 
-<br>
 
 ## Step 2
 
@@ -106,9 +102,6 @@ class Hello extends Command
 
 <!-- AQUI -->
 
-<br>
-
-
 ## Step 3
 
 
@@ -142,8 +135,6 @@ use Firulin\Commands\Hello;
             break;
     }
 ```
-
-<br>
 
 ### Now just run the command: php firulin hello:world. And you will receive:
 
