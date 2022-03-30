@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/dt/marrios/firulincore" alt="Total Downloads"</a>
-    <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/v/edmario/marrios/firulincore" alt="Latest Stable Version"></a>
+    <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/v/marrios/firulincore" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/l/marrios/firulincore" alt="License"></a>
 </p>
 # Firulin-core v1
