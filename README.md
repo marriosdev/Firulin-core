@@ -1,5 +1,4 @@
 <p align="center">
-    <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
     <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/dt/marrios/firulincore" alt="Total Downloads"</a>
     <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/v/marrios/firulincore" alt="Latest Stable Version"></a>
     <a href="https://packagist.org/packages/marrios/firulincore"><img src="https://img.shields.io/packagist/l/marrios/firulincore" alt="License"></a>
